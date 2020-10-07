@@ -1,0 +1,38 @@
+.App-header {
+  /* border: 1px solid red; */
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 1rem;
+  /* margin-top: 1rem; */
+  height: 75px;
+  width: auto;
+}
+.buttonContainer {
+  margin-right: 10rem;
+  display: flex;
+  align-items: center;
+}
+.buttonContainer .aLink:hover {
+  color: #0178e6;
+}
+.aLink {
+  font-size: 1rem;
+  color: rgb(88, 88, 88);
+  margin-right: 1.5rem;
+}
+
+.signupButton {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #0178e6;
+  color: white;
+  border-radius: 4px;
+}
+.buttonContainer .signupButton:hover {
+ opacity: 0.8;
+  cursor: pointer;
+}
